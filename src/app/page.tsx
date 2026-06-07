@@ -15,7 +15,7 @@ export default function Home() {
             height={400}
           />
           <h1 className="text-6xl font-bold ">
-            Taimas OS
+            Taimas OS v0.1.0
           </h1>
 
           <p className="max-w-md text-xl text-gray-500">
