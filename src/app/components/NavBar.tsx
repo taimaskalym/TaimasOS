@@ -40,7 +40,6 @@ export default function NavBar() {
       
       <a
 
-        
           href="https://t.me/taimaskalym"
 
           target="_blank"
