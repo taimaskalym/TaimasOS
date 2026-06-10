@@ -15,6 +15,10 @@ export default function Plan() {
             Here I will share my plans for Taimas OS, including upcoming features, improvements, and long-term goals. For now, the only goal is to build and study in the process of building Taimas OS.
           </p>
 
+          <div className="flex py-100"> {/* Temporary spacing to push content up for better visual balance */}
+
+          </div>
+
         </div>
       </main>
     </div>

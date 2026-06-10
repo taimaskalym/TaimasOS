@@ -13,7 +13,7 @@ export default function NavBar() {
     <nav className="flex w-full items-center justify-center gap-12 px-6 py-4 text-lg">
 
       <Link
-        href="/"
+        href="/ru"
         className="absolute left-10 inline-flex items-center gap-3 transition-opacity hover:opacity-80"
       >
         <Image src="/logo.svg" alt="Taimas OS Logo" width={40} height={40} />
@@ -23,11 +23,11 @@ export default function NavBar() {
           TAIMAS•OS
         </span>
       </Link>
-      <Link href="/" className="transition-opacity hover:opacity-70">Home</Link>
-      <Link href="/about" className="transition-opacity hover:opacity-70">About</Link>
-      <Link href="/notes" className="transition-opacity hover:opacity-70">Notes</Link>
-      <Link href="/patch-notes" className="transition-opacity hover:opacity-70">Patch Notes</Link>
-      <Link href="/plan" className="transition-opacity hover:opacity-70">Plan</Link>
+      <Link href="/ru" className="transition-opacity hover:opacity-70">Главная</Link>
+      <Link href="/ru/about" className="transition-opacity hover:opacity-70">О системе</Link>
+      <Link href="/ru/notes" className="transition-opacity hover:opacity-70">Заметки</Link>
+      <Link href="/ru/patch-notes" className="transition-opacity hover:opacity-70">Примечания к патчам</Link>
+      <Link href="/ru/plan" className="transition-opacity hover:opacity-70">План</Link>
       <div className="absolute right-36 flex gap-3 text-md">
         <Link href="/">EN</Link>
         <span className="text-zinc-500">|</span>

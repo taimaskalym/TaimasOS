@@ -19,8 +19,7 @@ export default function Home() {
           </h1>
 
           <p className="max-w-md text-xl text-gray-500">
-            A personal operating system for studying,
-            surviving, and becoming better.
+            Персональная операционная система для всего, что происходит в моей жизни.
           </p>
 
           <div className="flex py-100"> {/* Temporary spacing to push content up for better visual balance */}

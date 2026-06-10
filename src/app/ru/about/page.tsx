@@ -12,14 +12,15 @@ export default function About() {
           </h1>
 
           <p className="mt-4 text-xl text-gray-400">
-            Just a personal operating system for anything going in my life. 
+            Просто персональная операционная система для всего, что происходит в моей жизни.
           </p>
 
           <p className="mt-4 text-xl text-gray-400">
-            Built with Next.js and Tailwind CSS. 
+            Создана с использованием Next.js и Tailwind CSS.
           </p>
+
           <p className="mt-4 text-xl text-gray-400">
-            For scaling, I will be adding account system, data storage, and more features in the future. The goal is to learn the theory while building a "useful" tool for myself.
+            В будущем я планирую добавить систему аккаунтов, хранение данных и другие возможности для масштабирования проекта. Цель — изучать теорию на практике, одновременно создавая полезный инструмент для себя.
           </p>
 
           <div className="flex py-100"> {/* Temporary spacing to push content up for better visual balance */}
