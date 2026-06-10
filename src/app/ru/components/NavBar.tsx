@@ -29,9 +29,13 @@ export default function NavBar() {
       <Link href="/ru/patch-notes" className="transition-opacity hover:opacity-70">Примечания к патчам</Link>
       <Link href="/ru/plan" className="transition-opacity hover:opacity-70">План</Link>
       <div className="absolute right-36 flex gap-3 text-md">
-        <Link href="/">EN</Link>
+        <Link href="/" className="transition-opacity hover:opacity-70">
+          EN
+        </Link>
         <span className="text-zinc-500">|</span>
-        <Link href="/ru">RU</Link>
+        <Link href="/ru" className="opacity-70">
+          RU
+        </Link>
       </div>
       
       <a
