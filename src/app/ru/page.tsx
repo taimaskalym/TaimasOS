@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import NavBar from "@/app/components/NavBar";
+import NavBar from "./components/NavBar";
 
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans">
-      <NavBar locale="ru" />
+      <NavBar />
       <main className="flex flex-1 w-full flex-col items-center py-16 px-16 bg-white dark:bg-black">
         <div className="flex flex-col items-center pt-16 gap-8 text-center sm:items-center sm:text-center">
           <Image
