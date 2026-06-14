@@ -3,31 +3,20 @@ import NavBar from "../components/NavBar";
 
 export default function About() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-        <NavBar />
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="text-6xl font-bold">
-            About Taimas OS
-          </h1>
+    <main className="flex flex-col items-center">
+      <NavBar />
 
-          <p className="mt-4 text-xl text-gray-400">
-            Just a personal operating system for anything going in my life. 
+      <section className="px-auto flex w-full max-w-3/4 flex-col gap-6 py-32 text-justify text-lg md:max-w-3xl md:items-start md:text-xl">
+        <h1 className="text-3xl font-bold md:text-6xl">About Taimas OS</h1>
+        <div className="mt-4 text-gray-400">
+          <p>Just a personal operating system for anything going in my life.</p>
+          <p>Built with Next.js and Tailwind CSS.</p>
+          <p>
+            For scaling, I will be adding account system, data storage, and more features in the
+            future. The goal is to learn the theory while building a "useful" tool for myself.
           </p>
-
-          <p className="mt-4 text-xl text-gray-400">
-            Built with Next.js and Tailwind CSS. 
-          </p>
-          <p className="mt-4 text-xl text-gray-400">
-            For scaling, I will be adding account system, data storage, and more features in the future. The goal is to learn the theory while building a "useful" tool for myself.
-          </p>
-
-          <div className="flex py-100"> {/* Temporary spacing to push content up for better visual balance */}
-          
-          </div>
-
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
